@@ -1,3 +1,16 @@
+# trust-assume-role-policy
+
+statement {
+    actions = ["sts:AssumeRole"]
+    principals {
+      identifiers = ["ec2.amazonaws.com"]
+      type        = "Service"
+    }
+  }
+
+
+
+
 //Master Role
 
 {
