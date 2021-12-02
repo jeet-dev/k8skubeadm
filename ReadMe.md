@@ -15,6 +15,9 @@ yum install -y  https://download.docker.com/linux/centos/7/x86_64/stable/Package
 
 sudo yum install -y kubelet-1.21.5 kubeadm-1.21.5 kubectl-1.21.5 
 
+
+//yum install kubelet-1.21.1-0 kubeadm-1.21.1-0 kubectl-1.21.1-0 ( for 1.21.1) version
+
 sudo yum -y install yum-versionlock
 
 sudo yum versionlock add kubelet kubeadm kubectl
