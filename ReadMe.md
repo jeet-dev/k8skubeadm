@@ -21,3 +21,6 @@ sudo yum install -y kubelet-1.21.5 kubeadm-1.21.5 kubectl-1.21.5
 sudo yum -y install yum-versionlock
 
 sudo yum versionlock add kubelet kubeadm kubectl
+
+
+//read - HA https://www.kubeclusters.com/docs/How-to-Deploy-a-Highly-Available-kubernetes-Cluster-with-Kubeadm-on-CentOS7
